@@ -1,0 +1,79 @@
+<header>
+  <h2 class="text-center">ABC Institute</h2>
+  <h4 class="text-center my-2">Examination May/June 2023</h4>
+</header>
+
+<div
+  class="d-flex align-items-center justify-content-center container my-5 section"
+>
+  <div>
+    <table class="table table-borderless">
+      <tbody>
+        <tr>
+          <td class="font-weight-bold text-left">Name :</td>
+          <td class="text-left"><%= studentData.name %></td>
+          <td class="font-weight-bold text-left">Class :</td>
+          <td class="text-left"><%= studentData.std_class %></td>
+        </tr>
+
+        <tr>
+          <td class="font-weight-bold text-left">Examination Type :</td>
+          <td class="text-left"><%= studentData.examinationType %></td>
+          <td class="font-weight-bold text-left">Roll No. :</td>
+          <td class="text-left"><%= studentData.rollNo %></td>
+        </tr>
+
+        <tr>
+          <td class="font-weight-bold text-left">Father's Name :</td>
+          <td class="text-left"><%= studentData.fatherName %></td>
+          <td class="font-weight-bold text-left">Mother's Name :</td>
+          <td class="text-left"><%= studentData.motherName %></td>
+        </tr>
+
+        <tr>
+          <td class="font-weight-bold text-left">College :</td>
+          <td class="text-left"><%= studentData.college %></td>
+          <td class="font-weight-bold text-left">Examination Center :</td>
+          <td class="text-left"><%= studentData.examinationCenter %></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="img w-25">
+    <img src="../profile.jpg" class="rounded mx-auto d-block" alt="..." />
+  </div>
+</div>
+
+<div class="container my-5 section">
+  <table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Paper code</th>
+        <th scope="col">Subject Name</th>
+        <th scope="col">Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <% studentData.subjects.forEach(function(elem) { %>
+        <th scope="row"><%= elem.code %></th>
+        <td><%= elem.subject_name %></td>
+        <td></td>
+      </tr>
+      <% }) %>
+    </tbody>
+  </table>
+</div>
+
+<div class="otherinfo section container d-flex justify-content-between">
+  <div class="d-flex">
+    <p class="heading font-weight-bold mx-3">Date issued :</p>
+    <p>22 June 2023</p>
+  </div>
+
+  <div class="d-flex flex-column">
+    <img src="../sign.png" alt="signature" height="25%" />
+    <p>Examination controller - II</p>
+  </div>
+</div>

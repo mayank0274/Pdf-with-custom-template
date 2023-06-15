@@ -1,0 +1,118 @@
+[
+  {
+    "name": "John Doe",
+    "fatherName": "Jane Doe",
+    "motherName": "John Doe Sr.",
+    "examinationCenter": "New York City",
+    "examinationType":"May/June 2023",
+    "college": "Columbia University",
+    "rollNo": 123456,
+    "std_class":"BCA 1st sem",
+    "subjects": [
+      {
+        "code": "CS-101",
+        "subject_name": "C++"
+      },
+      {
+        "code": "CS-102",
+        "subject_name": "OS"
+      },
+      {
+        "code": "CS-103",
+        "subject_name": "Networking"
+      },
+      {
+        "code": "CS-104",
+        "subject_name": "DBMS"
+      }
+    ],
+    "image": "../profile.jpg"
+  },
+  {
+    "name": "Jane Doe",
+    "fatherName": "John Doe",
+    "motherName": "Jane Doe Sr.",
+    "examinationCenter": "Los Angeles",
+    "examinationType": "May/June 2023",
+    "college": "UCLA",
+    "rollNo": 789012,
+    "std_class":"BCA 1st sem",
+    "subjects": [
+      {
+        "code": "CS-101",
+        "subject_name": "C++"
+      },
+      {
+        "code": "CS-102",
+        "subject_name": "OS"
+      },
+      {
+        "code": "CS-103",
+        "subject_name": "Networking"
+      },
+      {
+        "code": "CS-104",
+        "subject_name": "DBMS"
+      }
+    ],
+    "image": "../profile.jpg"
+  },
+  {
+    "name": "Peter Smith",
+    "fatherName": "Susan Smith",
+    "motherName": "John Smith",
+    "examinationCenter": "Chicago",
+    "examinationType": "May/June 2023",
+    "college": "University of Chicago",
+    "rollNo": 345678,
+    "std_class":"BCA 1st sem",
+    "subjects": [
+      {
+        "code": "CS-101",
+        "subject_name": "C++"
+      },
+      {
+        "code": "CS-102",
+        "subject_name": "OS"
+      },
+      {
+        "code": "CS-103",
+        "subject_name": "Networking"
+      },
+      {
+        "code": "CS-104",
+        "subject_name": "DBMS"
+      }
+    ],
+    "image": "../profile.jpg"
+  },
+  {
+    "name": "Sarah Johnson",
+    "fatherName": "Michael Johnson",
+    "motherName": "Susan Johnson",
+    "examinationCenter": "San Francisco",
+    "examinationType": "May/June 2023",
+    "college": "Stanford University",
+    "rollNo": 901234,
+    "std_class":"BCA 1st sem",
+    "subjects": [
+      {
+        "code": "CS-101",
+        "subject_name": "C++"
+      },
+      {
+        "code": "CS-102",
+        "subject_name": "OS"
+      },
+      {
+        "code": "CS-103",
+        "subject_name": "Networking"
+      },
+      {
+        "code": "CS-104",
+        "subject_name": "DBMS"
+      }
+    ],
+    "image": "../profile.jpg"
+  }
+]
